@@ -1,0 +1,22 @@
+.inicio{
+    --opacidad-negro: 0.02;
+    background-image: linear-gradient(rgba(0,0,0, var(--opacidad-negro)), rgba(0,0,0, var(--opacidad-negro))),url("../img/DreamShaper_v7_ropa_de_hombre_casual_2-_1_-_1_.webp");
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+}
+
+.navbar-brand{
+    font-size: 1.3rem;
+    color:lavender;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:lavender;
+}
+
+.navbar{
+    background-color:#CCB28D;
+}

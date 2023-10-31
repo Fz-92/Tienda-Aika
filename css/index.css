@@ -1,0 +1,60 @@
+/*Imagen principal*/
+.inicio {
+  --opacidad-negro: 0.1;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, var(--opacidad-negro)),
+      rgba(0, 0, 0, var(--opacidad-negro))
+    ),
+    url("../img/portadafinal.webp");
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+}
+/*Tamaño del color del Logo*/
+.navbar-brand {
+  font-size: 1.3rem;
+  color: black;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+}
+/*Color del fondo del Navbar*/
+.navbar {
+  background-color: #d8d8d8;
+}
+/*Caracteristicas de los Nav-item*/
+.nav-item {
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
+}
+/*Color de fondo de las tarjetas*/
+.card {
+  background-color: silver;
+}
+/*Texto de las tarjetas*/
+.card-text {
+  font-family: 'Montserrat', sans-serif ;
+  text-align: justify ;
+  color: white;
+}
+
+.card-title{
+  color: black;
+  font-family: 'Bebas Neue', sans-serif ;
+  font-size: 22px;
+}
+
+.btn-primary{
+  background-color: steelblue;
+  border-color: steelblue;
+}
+.politicas {
+  background-color: #d8d8d8;
+  text-align: center;
+}
+
+a{
+  color: black;
+}
